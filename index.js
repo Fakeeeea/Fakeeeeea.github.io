@@ -26,7 +26,6 @@ function openDoor(){
         openAudio.play();
         catAudio.loop = true;
         catAudio.play();
-        cat.classList.add("scale-[200%]");
         console.log(offset);
     },4000 + offset*1000 + Math.floor(Math.random()*1000));
 }
