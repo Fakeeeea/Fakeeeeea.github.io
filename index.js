@@ -1,6 +1,5 @@
 const understand = document.getElementById("understand");
 const door = document.getElementById("door");
-const cat = document.getElementById("cat");
 const knockAudio = new Audio("resources/knock.mp3");
 const openAudio = new Audio("resources/open.mp3");
 const catAudio = new Audio("resources/catspin.mp3");
